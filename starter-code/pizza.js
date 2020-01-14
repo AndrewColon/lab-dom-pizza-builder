@@ -45,26 +45,74 @@ function renderPepperonni() {
 
 function renderMushrooms() {
   // Iteration 1: set the visibility of `<section class="mushroom">`
+  document.querySelectorAll('.mushrooms').forEach(function($mushrooms){
+    if (state.mushrooms) {
+      $pep.style.visibility = "visible";
+    }
+    else {
+      $pep.style.visibility = "hidden";
+    }
+  })
 }
 
 function renderGreenPeppers() {
   // Iteration 1: set the visibility of `<section class="green-pepper">`
+  document.querySelectorAll('.pep').forEach(function($pep){
+    if (state.pepperonni) {
+      $pep.style.visibility = "visible";
+    }
+    else {
+      $pep.style.visibility = "hidden";
+    }
+  })
 }
 
 function renderWhiteSauce() {
   // Iteration 2: add/remove the class "sauce-white" of `<section class="sauce">`
+  document.querySelectorAll('.pep').forEach(function($pep){
+    if (state.pepperonni) {
+      $pep.style.visibility = "visible";
+    }
+    else {
+      $pep.style.visibility = "hidden";
+    }
+  })
 }
 
 function renderGlutenFreeCrust() {
   // Iteration 2: add/remove the class "crust-gluten-free" of `<section class="crust">`
+  document.querySelectorAll('.pep').forEach(function($pep){
+    if (state.pepperonni) {
+      $pep.style.visibility = "visible";
+    }
+    else {
+      $pep.style.visibility = "hidden";
+    }
+  })
 }
 
 function renderButtons() {
   // Iteration 3: add/remove the class "active" of each `<button class="btn">`
+  document.querySelectorAll('.pep').forEach(function($pep){
+    if (state.pepperonni) {
+      $pep.style.visibility = "visible";
+    }
+    else {
+      $pep.style.visibility = "hidden";
+    }
+  })
 }
 
 function renderPrice() {
   // Iteration 4: change the HTML of `<aside class="panel price">`
+  document.querySelectorAll('.pep').forEach(function($pep){
+    if (state.pepperonni) {
+      $pep.style.visibility = "visible";
+    }
+    else {
+      $pep.style.visibility = "hidden";
+    }
+  })
 }
 
 
